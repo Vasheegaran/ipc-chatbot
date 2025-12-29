@@ -1,0 +1,14 @@
+# Core application
+streamlit==1.29.0        # UI framework (FREE hosting)
+
+# Data processing
+numpy==1.24.3           # Efficient arrays
+pandas==2.0.3           # Data manipulation (optional)
+
+# Local LLM (choose ONE - we'll start without for Phase 1)
+# transformers==4.36.0   # For local models (LATER phase)
+# torch==2.1.0          # PyTorch for models (LATER)
+
+# Utilities
+python-dotenv==1.0.0    # Environment variables
+ 
