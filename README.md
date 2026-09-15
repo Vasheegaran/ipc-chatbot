@@ -1,46 +1,65 @@
-\# ⚖️ IPC Legal Chatbot
+# IPC Legal Chatbot
 
+A RAG-based AI legal assistant for exploring the Indian Penal Code (IPC).
 
+## 🚀 Live Demo
 
-\## 🌐 Live Deployment
+https://ipcchatbot.streamlit.app
 
-\[!\[Streamlit App](https://static.streamlit.io/badges/streamlit\_badge\_black\_white.svg)](https://your-app-name.streamlit.app/)
+## 📌 Overview
 
+IPC Legal Chatbot is an AI-powered legal information assistant designed
+to help users explore the Indian Penal Code through a conversational
+interface.
 
+The project covers 511 IPC sections and uses multiple search strategies
+to retrieve relevant legal information.
 
-\## 📋 Features
+## ✨ Features
 
-\- Query 575 IPC sections
+- Search across IPC sections
+- Keyword-based search
+- Exact-match search
+- Chapter-wise search
+- RAG-based response generation
+- Streamlit web interface
+- Fast retrieval and response generation
 
-\- 100% free - no API costs
+## 🛠️ Tech Stack
 
-\- Accurate legal answers
+- Python
+- Streamlit
+- RAG
+- Natural Language Processing
 
-\- Professional interface
+## 🧠 How It Works
 
-\- Deployable on Streamlit Cloud
+User Query
+    ↓
+Query Processing
+    ↓
+Search / Retrieval
+    ↓
+Relevant IPC Sections
+    ↓
+Response Generation
+    ↓
+Answer
 
+## 📊 Project Details
 
+- IPC sections covered: 511
+- Legal keywords indexed: 2,205+
+- Target response time: under 3 seconds
 
-\## 🚀 Quick Start
+## 💻 Installation
+
+### Clone the repository
 
 ```bash
-
-\# Clone repository
-
-git clone https://github.com/YOUR\_USERNAME/ipc-chatbot.git
-
+git clone https://github.com/Vasheegaran/ipc-chatbot.git
 cd ipc-chatbot
-
-
-
-\# Install dependencies
 
 pip install -r requirements.txt
 
-
-
-\# Run locally
-
 streamlit run app.py
-
